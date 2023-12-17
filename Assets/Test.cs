@@ -17,6 +17,12 @@ void Start()
         array[3] = 13;
         array[4] = 14;
         //for文を使い、配列の各要素の値を順番に表示してください
+
+        for (int i=0; i < 5; i++)
+        {
+            Debug.Log(array[i]);
+        }
+
         for (int i = array.Length - 1; 0  <= i; i--) 
 
         {
